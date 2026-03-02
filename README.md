@@ -38,6 +38,7 @@ cd ComfyUI/custom_nodes
 git clone https://github.com/rorikuqu07421-pixel/ComfyUI-Moondream-FastInstal.git
 cd ComfyUI-Moondream-FastInstal
 pip install -r requirements.txt
+
 Credits ❤️
 Forked from: kijai/ComfyUI-moondream
 Original model by: vikhyatk/moondream2
@@ -47,3 +48,4 @@ This fork is made only for cleaner look and simple manual install. All the real 
 ⭐ If you find this fork useful — drop a star!
 
 Keywords: moondream, comfyui, moondream2, vlm, vision language model, comfyui custom node
+text
