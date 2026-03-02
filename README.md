@@ -1,40 +1,49 @@
-# 🟢 ComfyUI-Moondream-Easy
+# 🟢 ComfyUI-Moondream-FastInstal
 
-**The easiest way to install Moondream in ComfyUI 2026**
+**Clean & fast fork** of the popular Moondream node for ComfyUI.
 
-Tiny Vision Language Model (VLM) that runs anywhere — even on weak PCs, CPU, GPU or Apple Silicon.
+Tiny Vision Language Model (VLM) that runs anywhere — weak PCs, CPU-only, GPU or Apple Silicon.
 
 ![Moondream](https://img.shields.io/badge/Moondream-Ready-green?style=for-the-badge)
 ![ComfyUI](https://img.shields.io/badge/ComfyUI-Supported-blue?style=for-the-badge)
-![Install Time](https://img.shields.io/badge/Install_in-30_seconds-orange?style=for-the-badge)
 
 ---
 
-### 🔥 One-Click Install (Recommended)
+### 📌 What is this?
+
+This fork brings **moondream2** directly into ComfyUI so you can:
+- Generate captions for images
+- Ask questions about pictures (Visual Question Answering)
+- Use it in any workflow — super lightweight and fast
+
+---
+
+### 🔥 Recommended Installation (Original — Best Way)
 
 1. Open **ComfyUI**
 2. Click the **Manager** button
 3. Go to **Install Custom Nodes**
-4. Search: `moondream` or `ComfyUI-Moondream-Easy`
-5. Click **Install** → Restart ComfyUI
+4. Search: `moondream`
+5. Install **kijai/ComfyUI-moondream** (the original) → Restart ComfyUI
 
-**✅ Moondream node is ready!**
+**✅ Node is ready!**  
+For the latest version and updates always use the original from kijai.
 
 ---
 
-### Manual Install
+### Manual Install (This Fork)
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/lunoxcamilla12-create/ComfyUI-Moondream-Easy.git
-cd ComfyUI-Moondream-Easy
+git clone https://github.com/rorikuqu07421-pixel/ComfyUI-Moondream-FastInstal.git
+cd ComfyUI-Moondream-FastInstal
 pip install -r requirements.txt
-Model
-Automatically downloads vikhyatk/moondream2 from Hugging Face.
 Credits ❤️
-
-Forked from kijai/ComfyUI-moondream
-Original model by vikhyat/moondream
-
+Forked from: kijai/ComfyUI-moondream
+Original model by: vikhyatk/moondream2
 Big thanks to the original authors!
-Keywords: moondream comfyui, moondream2, comfyui vlm, vision language model, easy moondream install 2026, comfyui custom node
+This fork is made only for cleaner look and simple manual install. All the real work belongs to kijai.
+
+⭐ If you find this fork useful — drop a star!
+
+Keywords: moondream, comfyui, moondream2, vlm, vision language model, comfyui custom node
